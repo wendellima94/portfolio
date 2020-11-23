@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+h3 {
+  font-family: Nunito, sans-serif;
+}
+
+p, span{
+  font: 600 14px Nunito, sans-serif;
+}
+
+h1, h2 {
+  font: 700 24px Nunito, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
