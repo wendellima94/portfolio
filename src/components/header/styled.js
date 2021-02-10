@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header `
   height: 8vh;
-  width: 100%;
+  width: 100vw;
   background-color: #fffc;
   display: flex;
   flex-direction: row;

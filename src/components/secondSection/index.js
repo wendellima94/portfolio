@@ -1,15 +1,14 @@
 import React from 'react';
 
-import { Container, TextStyle,TextSkillsStyle, TitleStyle, ImgStyle } from './styled';
+import { Container, TextStyle,TextSkillsStyle, TitleStyle, ImgStyle, TextDiv } from './styled';
 import ImagemPC from '../../assets/img-pc.png';
 
 const SecondSection = () => {
   return (
     <div>
       <Container>       
-        <div>
+        <TextDiv>
           <TitleStyle>Sobre mim</TitleStyle>
-          
           <TextStyle>
             Olá, me chamo Wendel sou apaixonado por <br></br>
             organização vida simples e tecnologia<br></br>
@@ -26,7 +25,7 @@ const SecondSection = () => {
           <TextSkillsStyle>CSS </TextSkillsStyle>
           <TextSkillsStyle>JavaScript</TextSkillsStyle>
           <TextSkillsStyle>ReactJs</TextSkillsStyle>
-        </div>
+        </TextDiv>
           <ImgStyle class="img-pc" src={ImagemPC} alt="img-pc" />
         </Container>
     </div>

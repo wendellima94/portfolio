@@ -10,12 +10,10 @@ const  FirstSection = () => {
   return (
     <div>
       <Container>
-            <ImgProfile class="img-profile" src={Perfil} alt="img-profile"  />
-            <div class="name-info">
-                <TextStyle>Eu sou <br/>Wendel de Lima</TextStyle><br/>
-                <TextStyle>Desenvolvedor Web Full Stack</TextStyle>
-            </div>
-            <IconsContainer class="icons">
+            <ImgProfile src={Perfil} alt="img-profile" />
+            
+                <TextStyle>Olá, eu sou <br/>Wendel de Lima <br/> Desenvolvedor Web Full Stack</TextStyle><br/>
+                <IconsContainer>
                 <a href="https://github.com/wendellima94" target="_blank">
                     <img src={GitIcon} alt="git-icon"  /></a>
                 <a href="https://www.linkedin.com/in/wendel-de-lima-74b6b01a1/" target="_blank">
@@ -25,6 +23,7 @@ const  FirstSection = () => {
                     <img src={WhatsaAppIcon} alt="whatsapp-icon" /></a> */}
                     
             </IconsContainer>
+           
         </Container>
     </div>
   )

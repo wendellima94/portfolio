@@ -11,14 +11,8 @@ export const Container = styled.section `
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  
+  @media screen and (max-width: 500px) {  
+  text-align: center;
+  }
 `
-
-// export const = styled.
-
-// export const = styled.
-
-// export const = styled.
-
-// export const = styled.
-
-// export const = styled.
