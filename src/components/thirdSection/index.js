@@ -10,7 +10,6 @@ const ThirdSection = () => {
         </TitleContainer>
       <Container>  
          <TextContainer>
-
           <div>
             <TitleStyle>Front-end</TitleStyle><br></br>
             <TextStyle>
@@ -20,7 +19,6 @@ const ThirdSection = () => {
               o principio de Mobile first
             </TextStyle>
           </div>
-
           <div>
             <TitleStyle>Back-end</TitleStyle><br></br>
             <TextStyle>

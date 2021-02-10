@@ -6,7 +6,6 @@ export const Container = styled.section `
   height: 25vh;
   width: 100%;
   padding-bottom: 50px;
-
 `
 export const TextContainer = styled.div `
   height: 100%;
@@ -31,8 +30,15 @@ export const TitleContainer = styled.div `
 export const TitleStyle = styled.h1 `
   display: flex;
   color: #fffffb;
+  @media screen and (max-width: 500px) {  
+   margin: auto;
+   padding: 4px;
+ }
 `
 export const TextStyle = styled.p `
   display: flex;
   color: #fffffb;
+  @media screen and (max-width: 500px) {  
+   padding: 4px ;
+ }
 `

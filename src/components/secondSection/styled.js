@@ -8,12 +8,29 @@ export const Container = styled.section `
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 30px;
+
+ 
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+`
+export const TextDiv = styled.div`
+  @media screen and (max-width: 500px) {
+    padding-left: 20px;
+  }
 `
 export const TextSkillsStyle = styled.span `
   color: #fffffb;
   text-decoration: none;
   font-size: 14px;
   border-left: 3px solid #fffffb;
+  padding: 0px 6px 0px 2px;
+
 `
 
 export const TitleStyle = styled.h1 `
@@ -31,9 +48,3 @@ export const ImgStyle = styled.img `
   height: 240px;
   color: #000;
 `
-
-
-
-// export const = styled.
-// export const = styled.
-// export const = styled.

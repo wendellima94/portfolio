@@ -2,27 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div `
   display: flex;
-  align-self: center;
   justify-content: center;
-  background-color: #f2f2f2;
-
+  align-items: center;  
+  flex-direction: column;
+  padding: 40px 40px;
 `
 
-export const SectionContainer = styled.section `
-  background-color: #f2f2f2;
-  height: 100vh;
-  width: 60vh;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  justify-content: space-evenly;
-  flex-direction: column;
+export const TitleText = styled.h2 `
+  padding-bottom: 20px;
 `
 
 export const ContainerProjetos = styled.div `
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding-bottom: 50px;
 `
 
 export const ImgResolution = styled.img `
@@ -36,4 +27,5 @@ export const ButtonGit = styled.a `
   text-align: center;
   background-color: #ff0030;
   color: #fffd;
+  
 `
