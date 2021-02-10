@@ -14,7 +14,8 @@ const Header = () => {
           <StyleTextCV>Meu currículo em <strong>PDF</strong></StyleTextCV>
             <a 
             href='https://drive.google.com/file/d/1qeaOtutLSeKYweSnKqQK6jmSTrmKJswI/view?usp=sharing'
-            target="_blank">  
+            rel="noreferrer"
+            target="_blank" >  
               <img src={CV} alt="cv-img" />
             </a>
       </LinkText>
