@@ -13,7 +13,7 @@ export const TitleText = styled.h2 `
 `
 
 export const ContainerProjetos = styled.div `
-  padding-bottom: 50px;
+  padding-bottom:10px;
 `
 
 export const ImgResolution = styled.img `
